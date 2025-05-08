@@ -14,7 +14,7 @@ const HomePage = () => {
   }, []);
 
   return (
-<div className="relative w-full overflow-hidden bg-black min-h-[80vh] sm:min-h-[85vh] md:min-h-[90vh] lg:min-h-screen">
+<div className="relative w-full overflow-hidden bg-black min-h-[100vh] sm:min-h-[85vh] md:min-h-[90vh] lg:min-h-screen">
 
 {/* Welcome animation */}
       {!showMainContent && (
