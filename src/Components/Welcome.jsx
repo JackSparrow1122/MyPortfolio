@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import img from '../assets/21004063.jpg';
 import '@fortawesome/fontawesome-free/css/all.min.css';
+import resume from '../assets/Resume.pdf';
 
 const HomePage = () => {
   const [showMainContent, setShowMainContent] = useState(false);
@@ -26,9 +27,6 @@ const HomePage = () => {
           <>
             {/* Social Media Icons */}
             <div className="absolute left-9 top-1/2 transform -translate-y-1/2 flex flex-col space-y-6 text-white text-4xl z-10">
-              <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="hover:text-[#259CA8] transition duration-300">
-                <i className="fab fa-twitter"></i>
-              </a>
               <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="hover:text-[#259CA8] transition duration-300">
                 <i className="fab fa-instagram"></i>
               </a>
@@ -52,7 +50,7 @@ const HomePage = () => {
 
                 <div className="mt-6 flex space-x-4">
                   <a
-                    href="/Dipratna_Resume.pdf" // 📝 Replace with actual path
+                    href={resume} // 📝 Replace with actual path
                     download
                     className="bg-[#259CA8] text-white px-6 py-2 rounded-full hover:bg-white hover:text-[#259CA8] transition duration-300 font-semibold"
                   >
@@ -97,8 +95,6 @@ const HomePage = () => {
           }
         `}</style>
       </div>
-
-   
     </>
   );
 };

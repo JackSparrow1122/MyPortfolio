@@ -12,51 +12,40 @@ const Navbar = ({ welcomeRef, aboutRef, techRef, contactRef, projectsRef }) => {
   };
 
   return (
-    <nav className="bg-black text-white  sticky top-0 z-50 px-16">
-      <div className="container mx-auto flex justify-between items-center px-6">
+    <nav className="bg-black text-white sticky top-0 z-50 px-6 md:px-16 py-4">
+      <div className="container mx-auto flex justify-between items-center">
         {/* Logo Section */}
-        <div className=" font-bold">
+        <div className="font-bold">
           <Link
             to="/"
             className="hover:text-[#259CA8] transition-all duration-300"
           >
-            <img src={logo} alt="Logo" className="h-25" /> {/* Use your logo here */}
+            <img src={logo} alt="Logo" className="h-10 md:h-12" /> {/* Adjust logo size */}
           </Link>
         </div>
 
         {/* Navbar Links */}
-        <div className="space-x-6">
-          <button
-            onClick={() => scrollToSection(welcomeRef)}
-            className="hover:text-[#259CA8] transition-all duration-300 text-xl"
-          >
-            Home
-          </button>
-          <button
-            onClick={() => scrollToSection(aboutRef)}
-            className="hover:text-[#259CA8] transition-all duration-300 text-xl"
-          >
-            About
-          </button>
-          <button
-            onClick={() => scrollToSection(techRef)}
-            className="hover:text-[#259CA8] transition-all duration-300 text-xl"
-          >
-            Tech Stack
-          </button>
-          <button
-            onClick={() => scrollToSection(projectsRef)}
-            className="hover:text-[#259CA8] transition-all duration-300 text-xl"
-          >
-            Projects
-          </button>
-         
-          <button
-            onClick={() => scrollToSection(contactRef)}
-            className="hover:text-[#259CA8] transition-all duration-300 text-xl"
-          >
-            Contact
-          </button>
+        <div className="hidden md:flex space-x-6">
+          {[
+            { name: "Home", ref: welcomeRef },
+            { name: "About", ref: aboutRef },
+            { name: "Tech Stack", ref: techRef },
+            { name: "Projects", ref: projectsRef },
+            { name: "Contact", ref: contactRef },
+          ].map(({ name, ref }) => (
+            <button
+              key={name}
+              onClick={() => scrollToSection(ref)}
+              className="hover:text-[#259CA8] transition-all duration-300 text-xl"
+            >
+              {name}
+            </button>
+          ))}
+        </div>
+
+        {/* Mobile Menu Toggle */}
+        <div className="md:hidden">
+          <button className="text-3xl">☰</button> {/* Mobile menu toggle icon */}
         </div>
       </div>
     </nav>

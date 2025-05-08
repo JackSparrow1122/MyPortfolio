@@ -13,10 +13,7 @@ import {
   SiMysql,
   SiSpring,
   SiSpringboot,
-  SiJirasoftware,
   SiHibernate,
-  SiJunit5,
-  
 } from "react-icons/si";
 
 const techStack = [
@@ -32,7 +29,6 @@ const techStack = [
   { icon: <SiMysql color="#00758F" />, name: "MySQL" },
   { icon: <SiHibernate color="#59666C" />, name: "Hibernate" },
   { icon: <FaDatabase color="#00758F" />, name: "JDBC" },
-
 ];
 
 const Tech = () => {
@@ -43,11 +39,14 @@ const Tech = () => {
         Technologies I've been working with currently
       </p>
 
-      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-10 text-white justify-items-center">
+      {/* Tech Stack Grid */}
+      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-10 text-white justify-items-center">
         {techStack.map((tech, index) => (
           <div key={index} className="flex flex-col items-center">
-            <div className="text-8xl mb-2">{tech.icon}</div>
-            <p className="text-base font-medium">{tech.name}</p>
+            <div className="text-6xl sm:text-7xl md:text-8xl mb-4">
+              {tech.icon}
+            </div>
+            <p className="text-sm sm:text-base font-medium">{tech.name}</p>
           </div>
         ))}
       </div>
