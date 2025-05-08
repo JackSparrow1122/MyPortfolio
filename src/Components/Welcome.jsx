@@ -26,43 +26,46 @@ const HomePage = () => {
 
       {showMainContent && (
         <>
-          {/* Social Media Icons */}
-          <div className="absolute left-4 top-2/3 transform -translate-y-1/2 flex flex-col space-y-6 text-white text-4xl z-10 sm:left-9 sm:right-auto sm:top-1/2 sm:-translate-y-1/2 sm:flex-col sm:space-y-6">
-            <a
-              href="https://instagram.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="hover:text-[#259CA8] transition duration-300"
-            >
-              <i className="fab fa-instagram"></i>
-            </a>
-            <a
-              href="https://github.com/JackSparrow1122"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="hover:text-[#259CA8] transition duration-300"
-            >
-              <i className="fab fa-github"></i>
-            </a>
-            <a
-              href="https://linkedin.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="hover:text-[#259CA8] transition duration-300"
-            >
-              <i className="fab fa-linkedin"></i>
-            </a>
-            <a
-              href="https://wa.me/9146268421"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="hover:text-[#259CA8] transition duration-300"
-            >
-              <i className="fab fa-whatsapp"></i>
-            </a>
+         {/* Social Media Icons */}
+<div className="absolute left-2 top-2/3 md:top-1/2 -translate-y-1/2 flex flex-col space-y-4 text-white text-4xl z-10
+  sm:left-4 sm:text-3xl sm:space-y-5
+  md:left-6 md:text-4xl md:space-y-6
+  lg:left-8 lg:text-5xl lg:space-y-6
+">
+  <a
+    href="https://instagram.com"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="hover:text-[#259CA8] transition duration-300"
+  >
+    <i className="fab fa-instagram"></i>
+  </a>
+  <a
+    href="https://github.com/JackSparrow1122"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="hover:text-[#259CA8] transition duration-300"
+  >
+    <i className="fab fa-github"></i>
+  </a>
+  <a
+    href="https://linkedin.com"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="hover:text-[#259CA8] transition duration-300"
+  >
+    <i className="fab fa-linkedin"></i>
+  </a>
+  <a
+    href="https://wa.me/9146268421"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="hover:text-[#259CA8] transition duration-300"
+  >
+    <i className="fab fa-whatsapp"></i>
+  </a>
+</div>
 
-
-          </div>
 
           {/* Main Content */}
           <div className="absolute inset-0 flex flex-col sm:flex-row items-center justify-center space-y-8 sm:space-x-12 px-4 sm:px-16">
