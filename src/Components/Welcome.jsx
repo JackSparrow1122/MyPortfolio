@@ -14,7 +14,8 @@ const HomePage = () => {
   }, []);
 
   return (
-    <div className="relative w-full overflow-hidden bg-black min-h-[100vh] sm:min-h-[85vh] md:min-h-[90vh] lg:min-h-screen">
+    <div className="relative w-full min-h-screen bg-black overflow-hidden">
+
       {/* Welcome animation */}
       {!showMainContent && (
         <div className="absolute inset-0 flex items-center justify-center text-7xl sm:text-7xl md:text-9xl font-bold text-white opacity-90 animate-[fade-in_0s_ease-out_forwards]">
@@ -24,6 +25,42 @@ const HomePage = () => {
 
       {showMainContent && (
         <>
+          {/* Social Media Icons */}
+          <div className="absolute left-4 top-2/3 transform -translate-y-1/2 flex flex-col space-y-6 text-white text-4xl z-10 sm:left-9 sm:right-auto sm:top-1/2 sm:-translate-y-1/2 sm:flex-col sm:space-y-6">
+            <a
+              href="https://instagram.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-[#259CA8] transition duration-300"
+            >
+              <i className="fab fa-instagram"></i>
+            </a>
+            <a
+              href="https://github.com/JackSparrow1122"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-[#259CA8] transition duration-300"
+            >
+              <i className="fab fa-github"></i>
+            </a>
+            <a
+              href="https://linkedin.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-[#259CA8] transition duration-300"
+            >
+              <i className="fab fa-linkedin"></i>
+            </a>
+            <a
+              href="https://wa.me/9146268421"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-[#259CA8] transition duration-300"
+            >
+              <i className="fab fa-whatsapp"></i>
+            </a>
+          </div>
+
           {/* Main Content */}
           <div className="absolute inset-0 flex flex-col sm:flex-row items-center justify-center space-y-8 sm:space-x-12 px-4 sm:px-16">
             {/* Text Content */}
@@ -40,7 +77,7 @@ const HomePage = () => {
                 I specialize in building scalable backend services with Spring Boot and dynamic UIs using React.
               </p>
 
-              {/* Buttons */}
+              {/* Buttons: Stacked in mobile, inline in larger screens */}
               <div className="mt-6 flex flex-row justify-center items-center gap-4 flex-wrap w-full">
                 <a
                   href={resume}
@@ -59,85 +96,11 @@ const HomePage = () => {
             </div>
 
             {/* Profile Image */}
-            <div className="flex flex-col items-center justify-center mt-6 sm:mt-0">
-              <img
-                src={img}
-                alt="Dipratna Mahire"
-                className="w-64 h-64 sm:w-80 sm:h-80 rounded-full object-cover animate-[slide-right_1.5s_ease-out_forwards] shadow-lg shadow-[#259CA8]/50"
-              />
-
-              {/* Social Media Icons */}
-              <div className="hidden sm:flex flex-col items-start justify-start space-y-6 text-white text-4xl mt-6 absolute left-4 top-3/4 transform -translate-y-1/2 z-10 sm:left-9 sm:right-auto sm:top-1/2 sm:-translate-y-1/2 sm:flex-col sm:space-y-6">
-                <a
-                  href="https://instagram.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="hover:text-[#259CA8] transition duration-300"
-                >
-                  <i className="fab fa-instagram"></i>
-                </a>
-                <a
-                  href="https://github.com/JackSparrow1122"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="hover:text-[#259CA8] transition duration-300"
-                >
-                  <i className="fab fa-github"></i>
-                </a>
-                <a
-                  href="https://linkedin.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="hover:text-[#259CA8] transition duration-300"
-                >
-                  <i className="fab fa-linkedin"></i>
-                </a>
-                <a
-                  href="https://wa.me/9146268421"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="hover:text-[#259CA8] transition duration-300"
-                >
-                  <i className="fab fa-whatsapp"></i>
-                </a>
-              </div>
-
-              {/* Social Media Icons for Mobile */}
-              <div className="sm:hidden flex justify-center items-center space-x-6 text-white text-3xl mt-6">
-                <a
-                  href="https://instagram.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="hover:text-[#259CA8] transition duration-300"
-                >
-                  <i className="fab fa-instagram"></i>
-                </a>
-                <a
-                  href="https://github.com/JackSparrow1122"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="hover:text-[#259CA8] transition duration-300"
-                >
-                  <i className="fab fa-github"></i>
-                </a>
-                <a
-                  href="https://linkedin.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="hover:text-[#259CA8] transition duration-300"
-                >
-                  <i className="fab fa-linkedin"></i>
-                </a>
-                <a
-                  href="https://wa.me/9146268421"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="hover:text-[#259CA8] transition duration-300"
-                >
-                  <i className="fab fa-whatsapp"></i>
-                </a>
-              </div>
-            </div>
+            <img
+              src={img}
+              alt="Dipratna Mahire"
+              className="w-64 h-64 sm:w-80 sm:h-80 rounded-full object-cover animate-[slide-right_1.5s_ease-out_forwards] shadow-lg shadow-[#259CA8]/50 sm:mt-0 mt-6"
+            />
           </div>
         </>
       )}
