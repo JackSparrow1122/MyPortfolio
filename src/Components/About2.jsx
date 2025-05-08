@@ -2,9 +2,11 @@ import img from '../assets/buddha.jpg'; // Replace with your image path
 
 const About2 = () => {
   return (
-    <div className="w-full min-h-screen bg-black text-white flex flex-col md:flex-row items-center justify-between px-6 sm:px-12 md:px-20 py-16 gap-10">
-      {/* Left Section - Image */}
-      <div className="md:w-1/2 w-full flex justify-center opacity-0 animate-fadeInLeft animation-delay-200">
+    <div className="w-full  sm:min-h-[200px] md:min-h-[600px] lg:min-h-[500px] bg-black text-white flex flex-col sm:flex-row items-center px-4 sm:px-12 md:px-16 py-2 sm:py-4 gap-10">
+
+
+      {/* Left Section - Image (Mobile first) */}
+      <div className="w-full sm:w-1/2 flex justify-center sm:mb-0 opacity-0 animate-fadeInLeft animation-delay-200">
         <img
           src={img}
           alt="Dipratna Mahire"
@@ -13,10 +15,13 @@ const About2 = () => {
         />
       </div>
 
-      {/* Right Section - Random Facts */}
-      <div className="md:w-1/2 w-full opacity-0 animate-fadeInRight animation-delay-300">
-        <h2 className="text-4xl sm:text-5xl font-bold text-[#259CA8] mb-6">Random Facts</h2>
-        <ul className="list-disc list-inside space-y-3 text-lg text-gray-300">
+      {/* Right Section - Heading and Random Facts */}
+      <div className="w-full sm:w-1/2 opacity-0 animate-fadeInRight animation-delay-300">
+        {/* Heading */}
+        <h2 className="text-4xl sm:text-5xl font-bold text-[#259CA8] mb-6 text-center sm:text-left">Random Facts</h2>
+
+        {/* Facts List */}
+        <ul className="list-disc list-inside space-y-3 text-lg text-gray-300 sm:text-left">
           <li>I drink a lot of tea</li>
           <li>I'm passionate about web development.</li>
           <li>Playing video games</li>

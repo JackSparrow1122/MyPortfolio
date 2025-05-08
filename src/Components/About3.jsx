@@ -27,7 +27,7 @@ const About3 = () => {
   }, []);
 
   return (
-    <div ref={containerRef} className="w-full px-6 sm:px-12 md:px-16 py-12 bg-black overflow-hidden">
+    <div ref={containerRef} className="w-full px-4 sm:px-12 md:px-16 py-4 bg-black overflow-hidden">
       <h2 className="text-4xl font-bold text-center text-[#259CA8]">My Skills</h2>
 
       <div className="flex justify-center mt-12 gap-4 sm:gap-6 md:gap-8">

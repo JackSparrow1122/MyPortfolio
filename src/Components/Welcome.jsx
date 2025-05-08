@@ -14,10 +14,11 @@ const HomePage = () => {
   }, []);
 
   return (
-    <div className="relative h-screen w-full bg-black overflow-hidden">
+    <div className="relative w-full overflow-hidden bg-black min-h-[70vh] sm:min-h-[85vh] md:min-h-[90vh] lg:min-h-screen">
       {/* Welcome animation */}
       {!showMainContent && (
-        <div className="absolute inset-0 flex items-center justify-center text-9xl font-bold text-white opacity-90 animate-[fade-in_0s_ease-out_forwards]">
+        <div className="absolute inset-0 flex items-center justify-center text-7xl sm:text-7xl md:text-9xl font-bold text-white opacity-90 animate-[fade-in_0s_ease-out_forwards]">
+
           <h1>Welcome</h1>
         </div>
       )}
@@ -25,7 +26,7 @@ const HomePage = () => {
       {showMainContent && (
         <>
           {/* Social Media Icons */}
-          <div className="absolute left-9 top-1/2 transform -translate-y-1/2 flex flex-col space-y-6 text-white text-4xl z-10">
+          <div className="absolute left-9 top-2/3 transform -translate-y-1/2 flex flex-col space-y-6 text-white text-4xl z-10 sm:left-9 sm:right-auto sm:top-1/2 sm:-translate-y-1/2 sm:flex-col sm:space-y-6">
             <a
               href="https://instagram.com"
               target="_blank"
@@ -53,9 +54,9 @@ const HomePage = () => {
           </div>
 
           {/* Main Content */}
-          <div className="absolute inset-0 flex flex-col sm:flex-row items-center justify-center space-x-12 px-8 sm:px-16">
+          <div className="absolute inset-0 flex flex-col sm:flex-row items-center justify-center space-y-8 sm:space-x-12 px-4 sm:px-16">
             {/* Text Content */}
-            <div className="text-white max-w-xl sm:text-center sm:text-xl animate-[fade-slide-up_1.5s_ease-out_forwards]">
+            <div className="text-white max-w-xl  sm:text-xl animate-[fade-slide-up_1.5s_ease-out_forwards]">
               <h2 className="text-3xl sm:text-4xl">Hi,</h2>
               <h2 className="text-3xl sm:text-4xl">My name is</h2>
               <h1 className="text-4xl sm:text-5xl font-bold text-[#259CA8] font-mono mt-2 animate-[pop-in_1.5s_ease-out_forwards]">
@@ -68,21 +69,23 @@ const HomePage = () => {
                 I specialize in building scalable backend services with Spring Boot and dynamic UIs using React.
               </p>
 
-              <div className="mt-6 flex flex-col sm:flex-row space-x-0 sm:space-x-4">
-                <a
-                  href={resume} // 📝 Replace with actual path
-                  download
-                  className="bg-[#259CA8] text-white px-6 py-2 rounded-full hover:bg-white hover:text-[#259CA8] transition duration-300 font-semibold sm:w-full sm:mb-4"
-                >
-                  Download Resume
-                </a>
-                <a
-                  href="#contact" // Make sure you have a contact section with this ID
-                  className="border-2 border-[#259CA8] text-[#259CA8] px-6 py-2 rounded-full hover:bg-[#259CA8] hover:text-white transition duration-300 font-semibold sm:w-full"
-                >
-                  Hire Me
+              {/* Buttons: Stacked in mobile, inline in larger screens */}
+              <div className="mt-6 flex flex-row justify-center items-center gap-4 flex-wrap w-full">
+              <a
+                href={resume}
+                download
+                className="bg-[#259CA8] text-white px-6 py-2 rounded-full hover:bg-white hover:text-[#259CA8] transition duration-300 font-semibold"
+              >
+                Download Resume
+              </a>
+              <a
+                href="#contact"
+                className="border-2 border-[#259CA8] text-[#259CA8] px-6 py-2 rounded-full hover:bg-[#259CA8] hover:text-white transition duration-300 font-semibold"
+              >
+                Hire Me
                 </a>
               </div>
+
             </div>
 
             {/* Profile Image */}

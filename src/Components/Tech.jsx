@@ -40,7 +40,7 @@ const Tech = () => {
       </p>
 
       {/* Tech Stack Grid */}
-      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-10 text-white justify-items-center">
+      <div className="grid grid-cols-3 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-4 gap-10 text-white justify-items-center">
         {techStack.map((tech, index) => (
           <div key={index} className="flex flex-col items-center">
             <div className="text-6xl sm:text-7xl md:text-8xl mb-4">

@@ -2,12 +2,12 @@ import img from '../assets/aboutme.jpg';
 
 const About = () => {
   return (
-    <div className="w-full min-h-screen bg-black text-white flex flex-col items-center px-4 sm:px-8 md:px-16 py-16">
+    <div className="w-full min-h-screen bg-black text-white flex flex-col items-center px-4 sm:px-8 md:px-16 py-4">
       {/* Top Section */}
-      <div className="w-full flex flex-col-reverse md:flex-row items-center justify-between gap-12 md:gap-20">
-        {/* Left - Text Content */}
+      <div className="w-full flex flex-col md:flex-row items-center justify-between gap-12 md:gap-20">
+        {/* Text Section (Heading + Paragraph) */}
         <div
-          className="w-full md:w-1/2 animate-[fade-slide-left_1s_ease-out_forwards]"
+          className="w-full md:w-1/2 animate-[fade-slide-left_1s_ease-out_forwards] order-1 md:order-none"
           style={{ animationDelay: '0.1s' }}
         >
           <h2 className="text-4xl sm:text-5xl md:text-6xl font-bold text-[#259CA8] mb-6">
@@ -31,9 +31,9 @@ const About = () => {
           </p>
         </div>
 
-        {/* Right - Image */}
+        {/* Image */}
         <div
-          className="w-full md:w-1/2 flex justify-center animate-[fade-slide-right_1s_ease-out_forwards]"
+          className="w-full md:w-1/2 flex justify-center animate-[fade-slide-right_1s_ease-out_forwards] order-2 md:order-none"
           style={{ animationDelay: '0.2s' }}
         >
           <img
@@ -46,7 +46,7 @@ const About = () => {
       </div>
 
       {/* Final Statement */}
-      <p className="mt-12 text-base sm:text-lg md:text-xl text-[#259CA8] text-center max-w-4xl leading-relaxed">
+      <p className="order-3 md:order-none mt-12 text-base sm:text-lg md:text-xl text-[#259CA8] text-center max-w-4xl leading-relaxed">
         I specialize in building clean UI and writing robust backend logic to solve real-world problems efficiently. Always eager to learn and stay updated with tech trends.
       </p>
 
