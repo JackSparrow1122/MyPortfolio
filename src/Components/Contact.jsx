@@ -46,7 +46,7 @@ const ContactForm = () => {
 
         {/* Form Section */}
         <div className="w-full md:w-1/2">
-          <h2 className="text-5xl md:text-7xl font-bold text-[#259CA8] mb-6">Get in Touch</h2>
+          <h2 className="text-4xl md:text-5xl md:text-7xl font-bold text-[#259CA8] mb-6">Get in Touch</h2>
           <form className="space-y-6">
             <div>
               <label className="block text-white mb-2">Full Name</label>

@@ -10,8 +10,8 @@ const About = () => {
           className="w-full md:w-1/2 animate-[fade-slide-left_1s_ease-out_forwards] order-1 md:order-none"
           style={{ animationDelay: '0.1s' }}
         >
-          <h2 className="text-4xl sm:text-5xl md:text-6xl font-bold text-[#259CA8] mb-6">
-            about.
+          <h2 className="text-4xl text-center md:text-left sm:text-5xl md:text-6xl font-bold text-[#259CA8] mb-6">
+            About
           </h2>
           <p className="text-base sm:text-lg md:text-xl leading-relaxed">
             I'm <span className="text-[#259CA8] font-semibold">Dipratna Mahire</span>, a passionate Java Fullstack Developer with solid experience in building modern, scalable web applications.

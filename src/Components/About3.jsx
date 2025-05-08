@@ -28,7 +28,7 @@ const About3 = () => {
 
   return (
     <div ref={containerRef} className="w-full px-4 sm:px-12 md:px-16 py-4 bg-black overflow-hidden">
-      <h2 className="text-4xl font-bold text-center text-[#259CA8]">My Skills</h2>
+      <h2 className="text-4xl sm:text-5xl font-bold text-center text-[#259CA8]">My Skills</h2>
 
       <div className="flex flex-col md:flex-row justify-center mt-12 gap-4 sm:gap-6 md:gap-8">
         {/* Y-Axis Labels */}

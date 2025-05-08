@@ -34,7 +34,7 @@ const techStack = [
 const Tech = () => {
   return (
     <div className="bg-black py-12 px-4 md:px-16 text-center">
-      <h2 className="text-5xl font-bold text-[#259CA8] mb-4">My Tech Stack</h2>
+      <h2 className="text-4xl md:text-5xl font-bold text-[#259CA8] mb-4">My Tech Stack</h2>
       <p className="text-lg text-white mb-10">
         Technologies I've been working with currently
       </p>

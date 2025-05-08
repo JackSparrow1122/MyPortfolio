@@ -26,7 +26,7 @@ const HomePage = () => {
       {showMainContent && (
         <>
           {/* Social Media Icons */}
-          <div className="absolute left-4 top-3/4  md:top-1/2 transform -translate-y-1/2 flex flex-col space-y-6 text-white text-4xl z-10 sm:left-9 sm:right-auto sm:top-1/2 sm:-translate-y-1/2 sm:flex-col sm:space-y-6">
+          <div className="absolute left-4 top-3/4  md:top-1/2 transform -translate-y-1/2 flex flex-col space-y-6 text-white text-4xl md:text-5xl z-10 sm:left-16 sm:right-auto sm:top-1/2 sm:-translate-y-1/2 sm:flex-col sm:space-y-6">
             <a
               href="https://instagram.com"
               target="_blank"
@@ -67,7 +67,7 @@ const HomePage = () => {
             <div className="text-white max-w-xl sm:text-xl animate-[fade-slide-up_1.5s_ease-out_forwards]">
               <h2 className="text-3xl sm:text-4xl">Hi,</h2>
               <h2 className="text-3xl sm:text-4xl">My name is</h2>
-              <h1 className="text-4xl sm:text-5xl font-bold text-[#259CA8] font-mono mt-2 animate-[pop-in_1.5s_ease-out_forwards]">
+              <h1 className="text-4xl sm:text-6xl font-bold text-[#259CA8] font-mono mt-2 animate-[pop-in_1.5s_ease-out_forwards]">
                 Dipratna Mahire
               </h1>
               <p className="text-xl sm:text-lg mt-4">
