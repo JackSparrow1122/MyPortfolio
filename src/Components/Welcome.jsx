@@ -27,7 +27,7 @@ const HomePage = () => {
       {showMainContent && (
         <>
           {/* Social Media Icons */}
-          <div className="fixed left-1 top-3/4 transform -translate-y-1/2 flex flex-col space-y-6 text-white text-3xl z-10 sm:left-9 sm:right-auto sm:top-1/2 sm:-translate-y-1/2 sm:flex-col sm:space-y-6 ">
+          <div className="absolute left-4 top-2/3 transform -translate-y-1/2 flex flex-col space-y-6 text-white text-4xl z-10 sm:left-9 sm:right-auto sm:top-1/2 sm:-translate-y-1/2 sm:flex-col sm:space-y-6 ">
             <a
               href="https://instagram.com"
               target="_blank"
