@@ -14,7 +14,7 @@ const HomePage = () => {
   }, []);
 
   return (
-<div className="relative w-full overflow-hidden bg-black min-h-[90dvh]">
+<div className="relative w-full overflow-hidden bg-black min-h-[100dvh]">
 {/* Welcome animation */}
       {!showMainContent && (
         <div className="absolute inset-0 flex items-center justify-center text-7xl sm:text-7xl md:text-9xl font-bold text-white opacity-90 animate-[fade-in_0s_ease-out_forwards]">
