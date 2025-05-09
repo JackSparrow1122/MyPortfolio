@@ -1,17 +1,17 @@
 import React from 'react';
-import empImg from '../../assets/aboutme.jpg';
+import empImg from '../../assets/procover1.png';
 import ecommerceImg from '../../assets/aboutme.jpg';
 import blogImg from '../../assets/aboutme.jpg';
 import portfolioImg from '../../assets/aboutme.jpg';
 
 const projects = [
   {
-    name: 'Employee Management System',
-    image: empImg,
+    name: 'Contact Manager System',
+    image: empImg,  
     description:
       'A full-stack web app to manage employee records with CRUD operations, pagination, and search functionality.',
     tech: ['Spring Boot', 'React', 'MySQL', 'Tailwind CSS'],
-    github: 'https://github.com/yourusername/employee-management',
+    github: 'https://github.com/JackSparrow1122/SpringMVC',
     demo: 'https://employee-demo.vercel.app',
   },
   {
