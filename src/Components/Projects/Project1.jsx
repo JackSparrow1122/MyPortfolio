@@ -1,45 +1,45 @@
 import React from 'react';
-import empImg from '../../assets/procover1.png';
-import ecommerceImg from '../../assets/aboutme.jpg';
-import blogImg from '../../assets/aboutme.jpg';
-import portfolioImg from '../../assets/aboutme.jpg';
+import education from '../../assets/education.png';
+import notapp from '../../assets/noteapp.png';
+import  weatherapp from '../../assets/wetherapp.png';
+import techlumia from '../../assets/techlumina.png';
 
 const projects = [
   {
-    name: 'Contact Manager System',
-    image: empImg,  
+    name: 'education website',
+    image: education,  
     description:
       'A full-stack web app to manage employee records with CRUD operations, pagination, and search functionality.',
     tech: ['Spring Boot', 'React', 'MySQL', 'Tailwind CSS'],
     github: 'https://github.com/JackSparrow1122/SpringMVC',
-    demo: 'https://employee-demo.vercel.app',
+    demo: 'https://brighty-nerd.vercel.app/',
   },
   {
-    name: 'E-Commerce Site',
-    image: ecommerceImg,
+    name: 'weather app',
+    image: weatherapp,
     description:
       'A scalable e-commerce platform with product listing, cart, order management, and admin dashboard.',
     tech: ['Java', 'Spring Boot', 'Angular', 'MongoDB'],
     github: 'https://github.com/yourusername/ecommerce-site',
-    demo: 'https://ecom-demo.vercel.app',
+    demo: 'https://weather-app-muhammad-bilals-projects-08722761.vercel.app/',
   },
   {
-    name: 'Blogging Platform',
-    image: blogImg,
+    name: 'Note Application',
+    image: notapp,
     description:
       'Secure blogging app with JWT authentication, create/edit/delete posts, and comment features.',
     tech: ['Spring Boot', 'React', 'JWT', 'MongoDB'],
     github: 'https://github.com/yourusername/blog-platform',
-    demo: 'https://blog-demo.vercel.app',
+    demo: 'https://notes-web-app-tau.vercel.app/',
   },
   {
-    name: 'Portfolio Website',
-    image: portfolioImg,
+    name: 'techlumia',
+    image: techlumia,
     description:
       'A personal portfolio website showcasing skills, projects, and contact form with responsive design.',
     tech: ['React', 'Tailwind CSS', 'EmailJS'],
     github: 'https://github.com/yourusername/portfolio',
-    demo: 'https://dipratna.vercel.app',
+    demo: 'https://tech-site-p-r.vercel.app/',
   },
 ];
 
