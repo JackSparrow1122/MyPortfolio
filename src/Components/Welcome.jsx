@@ -26,40 +26,42 @@ const HomePage = () => {
       {showMainContent && (
         <>
           {/* Social Media Icons */}
-          <div className="absolute left-4 top-3/4  md:top-1/2 transform -translate-y-1/2 flex flex-col space-y-6 text-white text-4xl md:text-5xl z-10 sm:left-16 sm:right-auto sm:top-1/2 sm:-translate-y-1/2 sm:flex-col sm:space-y-6">
-            <a
-              href="https://www.instagram.com/_jack_sparrow_1122/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="hover:text-[#259CA8] transition duration-300"
-            >
-              <i className="fab fa-instagram"></i>
-            </a>
-            <a
-              href="https://github.com/JackSparrow1122"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="hover:text-[#259CA8] transition duration-300"
-            >
-              <i className="fab fa-github"></i>
-            </a>
-            <a
-              href="https://www.linkedin.com/in/deepmahire1122/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="hover:text-[#259CA8] transition duration-300"
-            >
-              <i className="fab fa-linkedin"></i>
-            </a>
-            <a
-              href="https://wa.me/9146268421"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="hover:text-[#259CA8] transition duration-300"
-            >
-              <i className="fab fa-whatsapp"></i>
-            </a>
-          </div>
+  <div className="absolute left-4 top-3/4 md:top-1/2 transform -translate-y-1/2 flex flex-col space-y-6 text-white text-4xl md:text-5xl z-10 sm:left-16 sm:top-1/2 sm:-translate-y-1/2">
+  <a
+    href="https://www.instagram.com/_jack_sparrow_1122/"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="hover:text-[#C13584] transition duration-300"
+  >
+    <i className="fab fa-instagram"></i>
+  </a>
+  <a
+    href="https://github.com/JackSparrow1122"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="hover:text-[#259CA8] transition duration-300"
+  >
+    <i className="fab fa-github"></i>
+  </a>
+  <a
+    href="https://www.linkedin.com/in/deepmahire1122/"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="hover:text-[#0A66C2] transition duration-300"
+  >
+    <i className="fab fa-linkedin"></i>
+  </a>
+  <a
+    href="https://wa.me/9146268421"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="hover:text-[#25D366] transition duration-300"
+  >
+    <i className="fab fa-whatsapp"></i>
+  </a>
+</div>
+
+
 
           {/* Main Content */}
           <div className="absolute inset-0 flex flex-col sm:flex-row items-center justify-center space-y-8 sm:space-x-12 px-4 sm:px-16">
@@ -70,10 +72,10 @@ const HomePage = () => {
               <h1 className="text-4xl sm:text-6xl font-bold text-[#259CA8] font-mono mt-2 animate-[pop-in_1.5s_ease-out_forwards]">
                 Dipratna Mahire
               </h1>
-              <p className="text-xl sm:text-lg mt-4">
-                I am a passionate Java Full Stack Developer.
+              <p className="text-xl sm:text-xl mt-4">
+               Passionate Java Full Stack Developer.
               </p>
-              <p className="text-md sm:text-sm text-gray-300 mt-2">
+              <p className="text-md sm:text-lg text-gray-300 mt-2">
                 I specialize in building scalable backend services with Spring Boot and dynamic UIs using React.
               </p>
 
