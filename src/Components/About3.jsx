@@ -3,7 +3,7 @@ import React, { useEffect, useRef, useState } from "react";
 const skills = [
   { name: "Tea drinking", level: 95, color: "bg-teal-300" },
   { name: "Web development", level: 90, color: "bg-rose-300" },
-  { name: "Codding", level: 95, color: "bg-yellow-400" },
+  { name: "Coding", level: 100, color: "bg-yellow-400" },
   { name: "Singing", level: 75, color: "bg-amber-300" },
   { name: "Gym", level: 40, color: "bg-red-400" },
 ];
@@ -27,7 +27,7 @@ const About3 = () => {
   }, []);
 
   return (
-    <div ref={containerRef} className="w-full px-4 sm:px-12 md:px-16 py-4 bg-black overflow-hidden">
+    <div ref={containerRef} className="w-full px-2 sm:px-12 md:px-16 py-4 bg-black overflow-hidden">
       <h2 className="text-4xl sm:text-5xl font-bold text-center text-[#259CA8]">My Skills</h2>
 
       <div className="flex flex-col md:flex-row justify-center mt-12 gap-4 sm:gap-6 md:gap-8">
