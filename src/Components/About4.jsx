@@ -7,10 +7,8 @@ const About4 = () => {
         
         {/* Left Side - Text */}
         <div>
-          <h2 className="text-3xl md:text-5xl font-bold text-[#259CA8] mb-4">
-            Certificate
-          </h2>
-          <p className="text-white text-lg leading-relaxed">
+          <h2 className="text-3xl sm:text-5xl  font-bold text-center sm:text-left mb-4 text-[#259CA8]">Certificate</h2>
+          <p className="text-white text-lg leading-relaxed ">
             I have successfully completed a comprehensive <strong>Java Full Stack Development</strong> course. 
             The training covered:
           </p>
