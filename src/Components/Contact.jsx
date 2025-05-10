@@ -73,7 +73,6 @@ const ContactForm = () => {
               <input
                 type="text"
                 name="name"
-                placeholder="John Doe"
                 className="w-full px-4 py-3 border border-gray-300 rounded bg-white text-black focus:outline-none focus:ring-2 focus:ring-[#259CA8] transition-all duration-300"
                 required
               />
@@ -83,7 +82,6 @@ const ContactForm = () => {
               <input
                 type="email"
                 name="email"
-                placeholder="john@example.com"
                 className="w-full px-4 py-3 border border-gray-300 rounded bg-white text-black focus:outline-none focus:ring-2 focus:ring-[#259CA8] transition-all duration-300"
                 required
               />
@@ -93,7 +91,6 @@ const ContactForm = () => {
               <textarea
                 rows="5"
                 name="message"
-                placeholder="I would love to connect with you..."
                 className="w-full px-4 py-3 border border-gray-300 rounded bg-white text-black focus:outline-none focus:ring-2 focus:ring-[#259CA8] transition-all duration-300"
                 required
               ></textarea>
