@@ -37,7 +37,7 @@ const Navbar = ({ welcomeRef, aboutRef, techRef, contactRef, projectsRef }) => {
             <button
               key={name}
               onClick={() => scrollToSection(ref)}
-              className="hover:text-[#259CA8] transition-all duration-300 text-xl"
+              className="hover:text-[#259CA8] transition-all duration-300 text-xl cursor-pointer"
             >
               {name}
             </button>
@@ -62,7 +62,7 @@ const Navbar = ({ welcomeRef, aboutRef, techRef, contactRef, projectsRef }) => {
             <button
               key={name}
               onClick={() => scrollToSection(ref)}
-              className="block w-full text-left text-lg hover:text-[#259CA8] transition-all duration-300"
+              className="block w-full text-left text-lg hover:text-[#259CA8] transition-all duration-300 cursor-pointer"
             >
               {name}
             </button>
