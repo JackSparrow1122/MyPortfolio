@@ -27,7 +27,7 @@ const Navbar = ({ welcomeRef, aboutRef, techRef, contactRef, projectsRef }) => {
         {/* Logo Section */}
         <div className="font-bold">
           <Link to="/" className="hover:text-[#259CA8] transition-all duration-300">
-            <img src={logo} alt="Logo" className="h-12" />
+            <img src={logo} alt="Logo" className="h-15" />
           </Link>
         </div>
 
