@@ -46,7 +46,7 @@ const projects = [
 const Projects = () => {
   return (
     <div className="w-full bg-black text-white py-4 px-4 md:px-16">
-      <h2 className="text-4xl md:text-5xl font-bold text-[#259CA8] mb-12 text-center">Projects</h2>
+      <h2 className="text-4xl md:text-5xl font-bold text-[#259CA8] mb-6 text-center">Projects</h2>
       <div className="grid md:grid-cols-2 gap-10">
         {projects.map((project, index) => (
           <div key={index} className="bg-[#1a1a1a] rounded-xl shadow-lg p-6">
