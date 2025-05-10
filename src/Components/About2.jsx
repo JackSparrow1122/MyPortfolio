@@ -18,7 +18,7 @@ const About2 = () => {
       {/* Right Section - Heading and Random Facts */}
       <div className="w-full sm:w-1/2 opacity-0 animate-fadeInRight animation-delay-300">
         {/* Heading */}
-        <h2 className="text-3xl sm:text-5xl font-bold text-[#259CA8] mb-6 text-center sm:text-left">Random Facts</h2>
+        <h2 className="text-3xl sm:text-5xl font-bold text-[#259CA8] mb-6 sm:text-center sm:text-left">Random Facts</h2>
 
         {/* Facts List */}
         <ul className="list-disc list-inside space-y-3 text-lg text-gray-300 sm:text-left">
