@@ -2,7 +2,7 @@ import img from '../assets/buddha.avif'; // Replace with your image path
 
 const About2 = () => {
   return (
-    <div className="w-full  sm:min-h-[200px] md:min-h-[600px] lg:min-h-[500px] bg-black text-white flex flex-col sm:flex-row items-center px-4 sm:px-12 md:px-16 py-2 sm:py-4 gap-10">
+    <div className="w-full  sm:min-h-[200px] md:min-h-[600px] lg:min-h-[500px] bg-black text-white flex flex-col sm:flex-row items-center px-4 sm:px-12 md:px-16 py-2 sm:py-4 pb-6 sm:pb-0 gap-10">
 
 
       {/* Left Section - Image (Mobile first) */}
@@ -21,7 +21,7 @@ const About2 = () => {
         <h2 className="text-3xl sm:text-5xl font-bold text-[#259CA8] mb-6 sm:text-center sm:text-left">Random Facts</h2>
 
         {/* Facts List */}
-        <ul className="list-disc list-inside space-y-3 text-xl text-gray-300 sm:text-left">
+        <ul className="list-disc list-outside ml-2 space-y-3 text-xl text-gray-300 sm:text-left">
           <li>I drink a lot of tea</li>
           <li>I'm passionate about web development.</li>
           <li>Playing video games</li>
