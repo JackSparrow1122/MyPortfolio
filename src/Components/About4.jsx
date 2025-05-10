@@ -15,12 +15,12 @@ const About4 = () => {
             I have successfully completed a comprehensive <strong>Java Full Stack Development</strong> course. 
             The training covered:
           </p>
-          <ul className="list-disc list-inside text-white mt-4 space-y-2 text-left">
-            <li><strong>Frontend:</strong> HTML, CSS, JavaScript, Bootstrap, React, Tailwind CSS</li>
-            <li><strong>Backend:</strong> Core Java, Advanced Java (JDBC, JSP, MVC), Hibernate</li>
-            <li><strong>Frameworks:</strong> Spring, Spring Boot</li>
-            <li><strong>Database:</strong> MySQL, SQL</li>
-            <li>Worked on real-time <strong>projects</strong> using MVC architecture</li>
+          <ul className="list-disc list-outside ml-6 text-white mt-4 space-y-2 text-left">
+          <li><strong>Frontend:</strong> HTML, CSS, JavaScript, Bootstrap, React, Tailwind CSS</li>
+          <li><strong>Backend:</strong> Core Java, Advanced Java (JDBC, JSP, MVC), Hibernate</li>
+          <li><strong>Frameworks:</strong> Spring, Spring Boot</li>
+          <li><strong>Database:</strong> MySQL, SQL</li>
+          <li>Worked on real-time <strong>projects</strong> using MVC architecture</li>
           </ul>
         </div>
 
