@@ -14,15 +14,15 @@ const About = () => {
             About
           </h2>
           <p className="text-base sm:text-lg md:text-xl leading-relaxed text-justify">
-            I'm <span className="text-[#259CA8] font-semibold text-lg sm:text-xl md:text-2xl">Dipratna Mahire</span>, a passionate Java Fullstack Developer with solid experience in building modern, scalable web applications.
+            I'm <span className="text-[#259CA8] font-semibold text-xl md:text-2xl">Dipratna Mahire</span>, a passionate Java Fullstack Developer with solid experience in building modern, scalable web applications.
             <br /><br />
-            <span className="text-[#259CA8] font-bold text-lg sm:text-xl md:text-2xl">Education:</span><br />
+            <span className="text-[#259CA8] font-bold text-xl md:text-2xl">Education:</span><br />
             Bachelor’s in Computer Application from <span className="text-[#259CA8]">Systel IMR, Dhule</span>.
             <br /><br />
-            <span className="text-[#259CA8] font-bold text-lg sm:text-xl md:text-2xl">Experience:</span><br />
+            <span className="text-[#259CA8] font-bold text-xl md:text-2xl">Experience:</span><br />
             Worked on real-world projects like Contact Manager App, Bank ATM Simulator, and Dynamic Admission Pages for ICEM using full-stack technologies.
             <br /><br />
-            <span className="text-[#259CA8] font-bold text-lg sm:text-xl md:text-2xl">Skillset:</span><br />
+            <span className="text-[#259CA8] font-bold text-xl md:text-2xl">Skillset:</span><br />
             <span className="font-semibold">Backend :</span> Java • Spring Boot • RESTful APIs • MySQL<br />
             <span className="font-semibold">Frontend :</span> ReactJS • Tailwind CSS • Bootstrap<br />
             <span className="font-semibold">Tools :</span> GitHub • Postman • VS Code
