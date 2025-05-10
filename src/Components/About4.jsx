@@ -1,5 +1,5 @@
 import React from "react";
-import img from '../assets/certficate.png'
+import img from '../assets/certficate.avif'
 const About4 = () => {
   return (
     <div className="w-full bg-black py-4 px-4 md:px-16" id="certificate">
