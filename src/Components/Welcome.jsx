@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import img from '../assets/21004063.jpg';
+import img from '../assets/21004063.avif';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 import resume from '../assets/Resume.pdf';
 

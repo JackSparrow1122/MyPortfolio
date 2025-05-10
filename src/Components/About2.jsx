@@ -1,4 +1,4 @@
-import img from '../assets/buddha.jpg'; // Replace with your image path
+import img from '../assets/buddha.avif'; // Replace with your image path
 
 const About2 = () => {
   return (

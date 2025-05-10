@@ -1,8 +1,8 @@
 import React from 'react';
-import education from '../../assets/education.png';
-import notapp from '../../assets/noteapp.png';
-import  weatherapp from '../../assets/wetherapp.png';
-import techlumia from '../../assets/techlumina.png';
+import education from '../../assets/education.avif';
+import notapp from '../../assets/noteapp.avif';
+import  weatherapp from '../../assets/wetherapp.avif';
+import techlumia from '../../assets/techlumina.avif';
 
 const projects = [
   {

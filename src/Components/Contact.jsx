@@ -1,6 +1,6 @@
 import React from 'react';
 import { FaInstagram, FaGithub, FaLinkedin, FaWhatsapp } from 'react-icons/fa';
-import contactImg from '../assets/support.jpg';
+import contactImg from '../assets/support.avif';
 
 const ContactForm = () => {
   const handleSubmit = (e) => {
