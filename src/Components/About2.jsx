@@ -21,7 +21,7 @@ const About2 = () => {
         <h2 className="text-3xl sm:text-5xl font-bold text-[#259CA8] mb-6 sm:text-center sm:text-left">Random Facts</h2>
 
         {/* Facts List */}
-        <ul className="list-disc list-inside space-y-3 text-lg text-gray-300 sm:text-left">
+        <ul className="list-disc list-inside space-y-3 text-xl text-gray-300 sm:text-left">
           <li>I drink a lot of tea</li>
           <li>I'm passionate about web development.</li>
           <li>Playing video games</li>
