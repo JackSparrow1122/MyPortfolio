@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaInstagram, FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa';
+import { FaInstagram, FaGithub, FaLinkedin, FaWhatsapp } from 'react-icons/fa';
 import contactImg from '../assets/support.jpg'; // Replace with your image path
 
 const ContactForm = () => {
