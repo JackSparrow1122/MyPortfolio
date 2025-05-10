@@ -20,7 +20,7 @@ const projects = [
     description:
       'A scalable e-commerce platform with product listing, cart, order management, and admin dashboard.',
     tech: ['Java', 'Spring Boot', 'Angular', 'MongoDB'],
-    github: 'https://github.com/JackSparrow1122',
+    github: 'https://github.com/JackSparrow1122/Weather-APP.git',
     demo: 'https://github.com/JackSparrow1122/Weather-APP.git',
   },
   {
