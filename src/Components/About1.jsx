@@ -10,19 +10,19 @@ const About = () => {
           className="w-full md:w-1/2 animate-[fade-slide-left_1s_ease-out_forwards] opacity-0"
           style={{ animationDelay: '0.1s', animationFillMode: 'forwards' }}
         >
-          <h2 className="text-4xl sm:text-5xl md:text-6xl font-bold text-[#259CA8] mb-2 text-center md:text-left">
+          <h2 className="text-4xl sm:text-5xl md:text-6xl font-bold text-[#259CA8] mb-6 text-center md:text-left">
             About
           </h2>
           <p className="text-base sm:text-lg md:text-xl leading-relaxed text-justify">
-            I'm <span className="text-[#259CA8] text-2xl  font-bold">Dipratna Mahire</span>, a passionate Java Fullstack Developer with solid experience in building modern, scalable web applications.
+            I'm <span className="text-[#259CA8] font-semibold">Dipratna Mahire</span>, a passionate Java Fullstack Developer with solid experience in building modern, scalable web applications.
             <br /><br />
-            <span className="text-[#259CA8] text-2xl font-bold">Education:</span><br />
-            Bachelor’s in Computer Application from <span className="text-[#259CA8] font-bold">Systel IMR, Dhule</span>.
+            <span className="text-[#259CA8] font-bold">Education:</span><br />
+            Bachelor’s in Computer Application from <span className="text-[#259CA8]">Systel IMR, Dhule</span>.
             <br /><br />
-            <span className="text-[#259CA8] text-2xl font-bold">Experience:</span><br />
+            <span className="text-[#259CA8] font-bold">Experience:</span><br />
             Worked on real-world projects like Contact Manager App, Bank ATM Simulator, and Dynamic Admission Pages for ICEM using full-stack technologies.
             <br /><br />
-            <span className="text-[#259CA8] text-2xl font-bold">Skillset:</span><br />
+            <span className="text-[#259CA8] font-bold">Skillset:</span><br />
             <span className="font-semibold">Backend :</span> Java • Spring Boot • RESTful APIs • MySQL<br />
             <span className="font-semibold">Frontend :</span> ReactJS • Tailwind CSS • Bootstrap<br />
             <span className="font-semibold">Tools :</span> GitHub • Postman • VS Code
