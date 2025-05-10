@@ -9,7 +9,7 @@ const ContactForm = () => {
         {/* Social Icons */}
         <div className="flex md:flex-col gap-6 text-white text-5xl md:text-6xl">
           <a
-            href="https://instagram.com/example"
+            href="https://www.instagram.com/_jack_sparrow_1122/"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-[#259CA8] transition-colors duration-300"
@@ -18,7 +18,7 @@ const ContactForm = () => {
             <FaInstagram />
           </a>
           <a
-            href="https://github.com/yourgithub"
+            href="https://github.com/JackSparrow1122"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-[#259CA8] transition-colors duration-300"
@@ -27,7 +27,7 @@ const ContactForm = () => {
             <FaGithub />
           </a>
           <a
-            href="https://linkedin.com/in/yourlinkedin"
+            href="https://www.linkedin.com/in/deepmahire1122/"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-[#259CA8] transition-colors duration-300"
@@ -36,12 +36,15 @@ const ContactForm = () => {
             <FaLinkedin />
           </a>
           <a
-            href="mailto:your.email@example.com"
-            className="hover:text-[#259CA8] transition-colors duration-300"
-            aria-label="Email"
-          >
-            <FaEnvelope />
-          </a>
+  href="https://wa.me/9146268421" // Replace with your WhatsApp number (with country code)
+  target="_blank"
+  rel="noopener noreferrer"
+  className="hover:text-[#259CA8] transition-colors duration-300"
+  aria-label="WhatsApp"
+>
+  <FaWhatsapp />
+</a>
+
         </div>
 
         {/* Form Section */}

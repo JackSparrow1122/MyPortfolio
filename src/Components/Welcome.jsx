@@ -28,7 +28,7 @@ const HomePage = () => {
           {/* Social Media Icons */}
           <div className="absolute left-4 top-3/4  md:top-1/2 transform -translate-y-1/2 flex flex-col space-y-6 text-white text-4xl md:text-5xl z-10 sm:left-16 sm:right-auto sm:top-1/2 sm:-translate-y-1/2 sm:flex-col sm:space-y-6">
             <a
-              href="https://instagram.com"
+              href="https://www.instagram.com/_jack_sparrow_1122/"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-[#259CA8] transition duration-300"
@@ -44,7 +44,7 @@ const HomePage = () => {
               <i className="fab fa-github"></i>
             </a>
             <a
-              href="https://linkedin.com"
+              href="https://www.linkedin.com/in/deepmahire1122/"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-[#259CA8] transition duration-300"
