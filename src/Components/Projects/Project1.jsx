@@ -11,7 +11,7 @@ const projects = [
     description:
       'A full-stack web app to manage employee records with CRUD operations, pagination, and search functionality.',
     tech: ['Spring Boot', 'React', 'MySQL', 'Tailwind CSS'],
-    github: 'https://github.com/JackSparrow1122/SpringMVC',
+    github: 'https://github.com/JackSparrow1122/Educational-Website.git',
     demo: 'https://brighty-nerd.vercel.app/',
   },
   {
@@ -20,8 +20,8 @@ const projects = [
     description:
       'A scalable e-commerce platform with product listing, cart, order management, and admin dashboard.',
     tech: ['Java', 'Spring Boot', 'Angular', 'MongoDB'],
-    github: 'https://github.com/yourusername/ecommerce-site',
-    demo: 'https://weather-app-muhammad-bilals-projects-08722761.vercel.app/',
+    github: 'https://github.com/JackSparrow1122',
+    demo: 'https://github.com/JackSparrow1122/Weather-APP.git',
   },
   {
     name: 'Note Application',
@@ -29,7 +29,7 @@ const projects = [
     description:
       'Secure blogging app with JWT authentication, create/edit/delete posts, and comment features.',
     tech: ['Spring Boot', 'React', 'JWT', 'MongoDB'],
-    github: 'https://github.com/yourusername/blog-platform',
+    github: 'https://github.com/JackSparrow1122/Notes-Application.git',
     demo: 'https://notes-web-app-tau.vercel.app/',
   },
   {
@@ -38,7 +38,7 @@ const projects = [
     description:
       'A personal portfolio website showcasing skills, projects, and contact form with responsive design.',
     tech: ['React', 'Tailwind CSS', 'EmailJS'],
-    github: 'https://github.com/yourusername/portfolio',
+    github: 'https://github.com/JackSparrow1122/Tech-Site.git',
     demo: 'https://tech-site-p-r.vercel.app/',
   },
 ];
