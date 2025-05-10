@@ -2,10 +2,10 @@ import React, { useEffect, useRef, useState } from "react";
 
 const skills = [
   { name: "Tea drinking", level: 95, color: "bg-teal-300" },
-  { name: "Web development", level: 90, color: "bg-rose-300" },
-  { name: "Coding", level: 100, color: "bg-yellow-400" },
-  { name: "Singing", level: 75, color: "bg-amber-300" },
-  { name: "Gym", level: 40, color: "bg-red-400" },
+  { name: "Bug Producer", level: 90, color: "bg-rose-300" },
+  { name: "Web development", level: 100, color: "bg-yellow-400" },
+  { name: " Alt+Tab Olympian", level: 75, color: "bg-amber-300" },
+  { name: "Singing", level: 40, color: "bg-red-400" },
 ];
 
 const levels = ["Maja Aa Gaya", "Kya Bat he", "Accha He", "Thik He"];
