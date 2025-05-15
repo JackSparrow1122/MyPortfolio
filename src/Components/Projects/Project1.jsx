@@ -21,7 +21,7 @@ const projects = [
       'A sleek and responsive weather application that fetches real-time weather data based on user input..',
     tech: ['React.js, Tailwind CSS, OpenWeatherMap API,Axios'],
     github: 'https://github.com/JackSparrow1122/Weather-APP.git',
-    demo: 'https://github.com/JackSparrow1122/Weather-APP.git',
+    demo: 'https://weather-app-muhammad-bilals-projects-08722761.vercel.app/',
   },
   {
     name: 'Note Application',
