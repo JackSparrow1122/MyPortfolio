@@ -53,7 +53,7 @@ const Projects = () => {
             <img
               src={project.image}
               alt={project.name}
-              className="w-full h-60 object-contain rounded-md mb-4"
+              className="w-full h-60 object-container rounded-md mb-4"
             />
             <h3 className="text-2xl font-semibold text-[#259CA8] mb-2">{project.name}</h3>
             <p className="text-gray-300 mb-3">{project.description}</p>
