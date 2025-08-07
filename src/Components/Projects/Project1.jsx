@@ -6,7 +6,7 @@ import techlumia from '../../assets/techlumina.avif';
 
 const projects = [
   {
-    name: 'education website',
+    name: 'Education Website',
     image: education,  
     description:
       'A responsive and modern educational website built for showcasing academic programs, testimonials, and achievements.',
@@ -15,7 +15,7 @@ const projects = [
     demo: 'https://brighty-nerd.vercel.app/',
   },
   {
-    name: 'weather app',
+    name: 'Weather App',
     image: weatherapp,
     description:
       'A sleek and responsive weather application that fetches real-time weather data based on user input..',
@@ -33,7 +33,7 @@ const projects = [
     demo: 'https://notes-web-app-tau.vercel.app/',
   },
   {
-    name: 'techlumia',
+    name: 'TechLumia',
     image: techlumia,
     description:
       'A modern, responsive website designed to showcase technology-related content and services with a sleek UI.',
